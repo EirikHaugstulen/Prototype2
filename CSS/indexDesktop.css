@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* ----Innhold---- */
+
+ul{
+    list-style-type: none;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border-right: black 1px solid;
+}
+
+.nav{
+    border-right: black 1px solid;
+}
+
+.liste img {
+    width: 100%;
+}
+
+a{
+    display: block;
+    color: #5a606d;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: none;
+    font-family: Arial, serif;
+}
+a:hover{
+    color: black;
+}
+
+.active{
+   border-bottom: lightskyblue 3px solid;
+    color: black;
+}
+
+.container{
+    width: 75%;
+    float: right;
+    background-color: darkgray;
+}
+
+.hjemContainer{
+    padding: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: center;
+}
+.annenFarge{
+    color: black;
+}
+.hjemContainer h1{
+     font-size: 37px;
+ }
+
+.hjemContainer p{
+    font-size: 27px;
+}
+
+.fremvisning{
+    background: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url("../IMG/barnevakt.jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+.tekstboks{
+    color: darkgray;
+    width: 35%;
+    background-color: ivory;
+    padding: 20px;
+    border-radius: 25px;
+    border: black 1px solid;
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 340px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+}
+.tekstboks:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.boks2{
+    margin: 20px 0;
+    min-height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 18px;
+}
+.bildetekst{
+    position: absolute;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    left: 870px;
+    top: 1500px;
+    font-size: 25px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.footerbokser{
+    width: 100%;
+    display: inline-flex;
+    margin: 30px 20px;
+    padding-right: 0;
+}
+
+.footertekst{
+    margin: 15px;
+    width: 30%;
+    text-align: center;
+    background-color: ivory;
+    border: black 1px solid;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.footertekst:hover{
+    background-color: lightgray;
+}
