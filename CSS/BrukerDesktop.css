@@ -47,3 +47,8 @@ a:hover{
     border-bottom: lightskyblue 3px solid;
     color: black;
 }
+
+.container{
+    width: 75%;
+    float: right;
+}
