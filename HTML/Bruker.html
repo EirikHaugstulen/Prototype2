@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Logg inn / Registrer deg</title>
     <link rel="stylesheet" type="text/css" href="../CSS/BrukerDesktop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -22,8 +24,34 @@
 </div>
 
 <div class="container">
+<div id="tekstogbilde">
+<h1 id="overskriftBruker"> Fordeler med å registrere seg hos Rastløs.</h1>
+    <div class="tekstBruker">
+        <img id="Vinduspusser" src="../IMG/Vinduspusser.jpg" alt="Vinduspusser">
+        <p> Hos oss kan alle registrere seg med en bruker, uansett alder. Hva du gjør med denne
+        brukeren er opp til deg. Om du har en jobb du gjerne vil ha gjort, er det tusenvis av
+        personer der ute som søker deg.</p>
+
+        <p> Har du litt tid til overs som du kunne ønske du kunne fylle med litt meningsfullt arbeid?
+            Trenger du litt ekstra penger for å komme deg gjennom måneden? Da er
+            <span style="text-decoration: underline">Rastløs</span> appen for deg. Her kan du godkjenne, planlegge og utføre
+            småjobber som til gjengjeld skaffer deg litt ekstra å rutte med. <br> Hva har du å tape?
+        </p>
+
+        <p id="NB"> <sup>*</sup> Husk at brukere under 16 år må ha en forelder registrert som verge. </p>
+
+        <button id="myBtn"> Registrer deg her </button>
+        <div class="logginn1">
+            <p> Har du allerede en bruker? <a href="#">Logg inn</a>. </p>
+        </div>
+    </div>
+</div>
+        <div id="myModal" class="modal">
+
+<div class="modal-content">
 
     <div class="boks">
+        <span class="close">&times;</span>
         <form>
             <div class="registrering">
                 <h1> Registrer en ny bruker </h1>
@@ -45,14 +73,40 @@
                 <p>Ved å trykke "Registrer" bekrefter du at du godtar våre
                     <a href="#">Vilkår og personsvernsinnstillinger </a></p>
                 <button type="submit" class="registrerKnapp"> Registrer </button>
-            </div>
 
-            <div class="registrering logginn">
-                <p> Har du allerede en bruker? <a href="#">Logg inn</a>. </p>
+                <div class="registrering logginn2">
+                    <p> Har du allerede en bruker? <a href="#">Logg inn</a>. </p>
+                </div>
             </div>
         </form>
-    </div>
 
+    </div>
+    <script id="modal1">
+
+        var modal = document.getElementById("myModal");
+
+        var btn = document.getElementById("myBtn");
+
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+</div>
+</div>
 </div>
 
 
