@@ -2,6 +2,8 @@
     width: 75%;
     margin: 0;
     padding: 0;
+    float: right;
+    height: 850px;
 }
 
 .kontaktskjema{
@@ -23,6 +25,11 @@ input[type=text], textarea{
     margin-bottom: 16px;
 }
 
+input[type = text]:focus, input[type = text]:focus, textarea:focus{
+    background-color: rgba(255, 250, 254, 0.8);
+    outline: none;
+}
+
 input[type=submit] {
     background-color: #153195;
     color: white;
@@ -38,3 +45,21 @@ input[type=submit]:hover{
     background-color: #1533c1;
 }
 
+.overskriftKontakt{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.overskriftKontakt p{
+    font-style: italic;
+    font-size: 16px;
+    width: 100%;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.overskriftKontakt h1{
+    font-size: 32px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
