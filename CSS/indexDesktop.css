@@ -139,43 +139,5 @@ a:hover{
     background-color: lightgray;
 }
 
-.headerpicOmOss{
-    margin-left: 40%;
-}
 
-.column{
-    margin-left: 24%;
-    display: inline;
-    float: left;
-    width: 1%;
-    padding: -15px;
-    padding-top: 4%;
-    padding-left: 2%;
-
-}
-
-.tekstboksunder{
-    text-align: left;
-    width: 20%;
-}
-
-p{
-    font-size: 15px;
-    width: 250px;
-    line-height: 20px;
-    text-align: center;
-}
-
-h2 {
-    margin-left: 16%;
-    color: darkblue;
-    font-family: Optima;
-    font-size: 60px;
-    position: absolute;
-    margin-top: -1%;
-}
-
-h3{
-text-align: center;
-}
 
