@@ -1,0 +1,40 @@
+.container{
+    width: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+.kontaktskjema{
+    width: 40%;
+    margin-left: 25%;
+    background-color: #dddddd;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #153195;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+input[type=submit]:hover{
+    background-color: #1533c1;
+}
+
