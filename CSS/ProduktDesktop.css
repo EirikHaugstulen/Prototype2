@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
 .tekstogbilde{
     width: 60%;
     margin-left: 200px;
@@ -32,8 +37,7 @@
     color: white;
     font-size: 42px;
     position: absolute;
-    margin-left: 370px;
-    margin-top: 500px;
+    margin: 500px 20%;
     background-color: #aaaaaa;
     padding: 10px;
     opacity: 70%;
@@ -45,5 +49,6 @@
     padding: 11px;
 }
 .tekstogbilde.boks2{
+    margin-left: 300px;
     height: 1000px;
 }
